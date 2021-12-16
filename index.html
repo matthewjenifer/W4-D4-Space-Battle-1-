@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>(2) Space Battle | HW </title>
+</head>
+
+<body>
+
+    <h1>Galaxy Fight - II </h1>
+
+    <div id="center-instructions">
+        <p>Instructions:</p>
+        <p> (1) Press "Start Game" (below) to reveal your opening stats.</p>
+        <p>(2) Attack ONLY when ready.. </p>
+        <p>(3) TRY TO SURVIVE !!!</p>
+    </div>
+
+
+    <div id="container">
+        <br>
+        <button onclick="begin();onclick= style.display = 'none'">Start Game</button>
+
+        <h2> Action Console</h2>
+        <div id="action-console">
+            <!-- this will display game action -->
+            <div id="bottomRow"></div>
+            <div id="bottomRow2"></div>
+        </div>
+
+        <br>
+        <br>
+        <div id="player-window">
+
+
+            <div id="standOff">
+
+                <div id="goodGuy" class="fighter">
+                    <img src="images/predator2.png" height=auto; width=500px;>
+                </div>
+
+                <div id="centerPanel">
+                    <img src="images/vs.png" ; height=300 px; width=300 px;>
+                </div>
+
+                <div id="badGuy" class="fighter">
+                    <img src="images/mars.png" height=250px; width=250px;>
+                </div>
+
+            </div>
+
+            <div id="healthPanel">
+
+                <div id="GgHp">
+                    <span class="healthLabel"> SCHWARZENNEGGER </span>
+                    <div class="hpBorder">
+                        <div id="goodHP" class="hpBar"></div>
+                    </div>
+
+                </div>
+
+                <div id="buttons">
+                    <button onclick="fight()" class="buttonStyle">Attack!</button>
+
+                </div>
+
+
+                <div id="BgHp">
+                    <span class="healthLabel"> ALIENS </span>
+                    <div class="hpBorder">
+                        <div id="badHP" class="hpBar"></div>
+                    </div>
+                    <div id="name-console">
+                        <div id="bottomRow-name"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <a href="../pages/gameover.html"><button>Retreat</button></a>
+        <br>
+
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

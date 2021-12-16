@@ -1,0 +1,239 @@
+*{
+    border: 1px solid gold;
+}
+
+body {
+    margin-top: 1vh;
+    background-image: url("../images/fight.gif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+}
+
+h2 {
+    color: yellow;
+}
+
+p {
+    color: white;
+    background-color: black;
+    
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../images/space_bkg.PNG");
+    background-color: cornflowerblue;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    border: 1px solid white;
+    height: 70vh;
+    width: 150vh;
+}
+
+#center-instructions {
+    text-align: center;
+}
+
+
+#action-console {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    background-color: black;
+    width: 90vh;
+    height: 10vh;
+    display: flex;
+}
+
+#name-console {
+    border: 1px solid white;
+    background-color: black;
+    height: 20 px;
+    width: 20 px;
+}
+
+#player-window {
+    border: 1px solid white;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../images/ship-hull.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 140vh;
+    height: 60vh;
+}
+
+
+
+#gamePanel {
+    /* border: 1px solid green; */
+    height: 70px;
+    width: 50vh;
+}
+
+#standOff {
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 250px;
+    width: 140vh;
+    margin-right: 250px;
+}
+
+#healthPanel {
+    /* position:absolute; */
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    width: 140vh;
+    background-image: url("../images/war.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#centerPanel {
+    /* border: 1px solid orange; */
+    height: 290px;
+    margin-left: 140px;
+}
+
+#bottomRow {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font: 13pt Arial;
+    color: yellow;
+    /* border: 3px solid blue; */
+    text-align: center;
+    align-items: center;
+}
+
+#bottomRow2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font: 13pt Arial;
+    /* border: 3px solid lightcoral; */
+    color: yellow;
+    text-align: center;
+    align-items: center;
+}
+
+
+#goodGuy {
+    /* border: 1px solid blue; */
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+
+}
+
+#GgHp {
+    /* border: 1px solid blue; */
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 130px;
+}
+
+#badGuy {
+    /* border: 1px solid red; */
+    height: 250px;
+    width: 250px;
+}
+
+#BgHp {
+    /* border: 1px solid lime; */
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
+
+
+#buttons {
+    /* border: 1px solid indianred; */
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#restart {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.healthLabel {
+    font: 18pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.hpBorder {
+    width: 150px;
+    height: 15px;
+    border: 2px solid;
+    border-color: white;
+    background-color: red;
+}
+
+.hpBar {
+    width: 150px;
+    height: 15px;
+    background-color: rgb(87, 253, 87);
+}
+
+.buttonStyle {
+    position: relative;
+    background-color: green;
+    color: black;
+    border: 3px solid;
+    border-color: black;
+    font: 24pt Arial;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+.buttonStyle:hover {
+    background-color: rgb(224, 14, 14);
+    color: white;
+    font-weight: bold;
+}
