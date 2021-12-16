@@ -1,7 +1,15 @@
 body {
-    background-image: url(../images/724028239-27980-aqua-teen-hunger-force-aqua-teen-mooninites-quote.png);
+    background-image: url(../images/game-over.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 
+}
+
+#use-me{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
 }
